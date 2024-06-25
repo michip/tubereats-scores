@@ -17,7 +17,7 @@
 <body>
 
 <div class="container">
-    <div class="grid-2">
+    <div class="grid-2 py-5">
         <div class="section-1">
             <i class="fas fa-code fa-5x white"></i>
             <h2>Tuber Eats Server</h2>
@@ -43,7 +43,13 @@
         </div>
     </div>
 
-    <h2>Your Scores</h2>
+    <hr/>
+
+    <h2 class="text-center mt-5">Team Scores</h2>
+
+    <div class="plot">
+        <iframe src="plots/score_table.html" width="90%" height="400"></iframe>
+    </div>
 
     <div class="plot">
         <iframe src="plots/normalized_scores.html" width="90%" height="500"></iframe>
